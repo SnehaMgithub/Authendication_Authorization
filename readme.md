@@ -22,3 +22,9 @@ This application provides a secure user registration and login system using JWT 
 - **JWT Authentication**: JWTs are used to authenticate requests. A middleware function verifies the token and attaches user information to the request object.
 - **Protected Routes**: A protected route for fetching user information, accessible only by providing a valid JWT.
 - **API Documentation**: Postman collection for testing and sample API requests.
+
+
+## API Documentation
+For detailed API documentation, including request/response examples, you can refer to the full Postman documentation:
+
+https://documenter.getpostman.com/view/39168825/2sAY4sjjZz
