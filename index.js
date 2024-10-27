@@ -15,7 +15,7 @@ app.use(cors());
 connectDB();
 
 app.get("/", (req, res) => {
-  res.status(200).send("Welcome To Our Api");
+  res.status(200).send("Welcome to the Authentication and Authorization API");
 });
 
 app.use("/api/auth",userRoute)
